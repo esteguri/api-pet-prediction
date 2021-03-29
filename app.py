@@ -13,6 +13,7 @@ model_file = './model/model.h5'  # Se importa el modelo
 weights_model = './model/weights.h5'  # Se importa los pesos del modelo
 model = load_model(model_file)
 model.load_weights(weights_model)
+print(">>>>>Model loaded")
 
 
 @app.route('/')
@@ -60,4 +61,5 @@ def identify_pet(array):
 
 
 if __name__ == "__main__":
+    print(">>>>App run")
     app.run()
