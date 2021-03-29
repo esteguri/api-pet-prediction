@@ -1,12 +1,4 @@
 Flask==1.1.2
-Flask-Cors==3.0.2
 numpy~=1.19.2
-numpydoc
-scikit-image==0.17.2
-scikit-learn
-scipy
-gunicorn
-
-
 keras~=2.4.3
 werkzeug~=1.0.1
